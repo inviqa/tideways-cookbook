@@ -3,7 +3,7 @@ template "/etc/php.d/40-tideways.ini" do
   mode 00644
   owner "root"
   group "root"
-  notifies :restart, "service[php-fpm]"
+  notifies :reload, "service[#{node['tideways']['php_service_name']}]"
   variables({
     :tideways => @node['tideways']
   })
