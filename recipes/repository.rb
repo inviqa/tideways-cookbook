@@ -1,5 +1,5 @@
-case node['platform']
-when 'amazon', 'fedora', 'centos', 'redhat'
+case node['platform_family']
+when 'rhel'
   yum_repository 'tideways' do
     description 'Tideways'
     url node['tideways']['yum_url']
