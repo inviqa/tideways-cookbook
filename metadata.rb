@@ -1,7 +1,8 @@
 name 'tideways'
-maintainer 'Till Klampaeckel'
-maintainer_email 'till@php.net'
-license 'BSD-2-Clause'
+version '0.1.0'
+maintainer 'Rupert Jones'
+maintainer_email 'rjones@inviqa.com'
+license 'Apache 2.0'
 description 'Install and configure tideways daemon and PHP extension'
 
 depends 'yum'
