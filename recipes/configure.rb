@@ -7,6 +7,6 @@ template "/etc/php.d/40-tideways.ini" do
   group "root"
   notifies :reload, "service[#{node['tideways']['php_service_name']}]"
   variables({
-    :tideways => @node['tideways']
+    :tideways => node['tideways']
   })
 end
