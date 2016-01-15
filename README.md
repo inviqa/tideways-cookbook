@@ -10,7 +10,7 @@ This requires the following data adding to the appropriate environment data file
     "tideways": {
       "api_key": <api_key>,
       "framework": <framework>,
-      "php_service_name": <php-fpm|httpd>
+      "php_service_name": <php-fpm|httpd|apache2>
     }
   }
 ```
