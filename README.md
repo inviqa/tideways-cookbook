@@ -10,7 +10,9 @@ This requires the following data adding to the appropriate environment data file
     "tideways": {
       "api_key": <api_key>,
       "framework": <framework>,
-      "php_service_name": <php-fpm|httpd>
+      "php_service_name": <php-fpm|httpd>,
+      "auto_start": <yes|no>,
+      "auto_prepend_library": <yes|no>
     }
   }
 ```
@@ -23,3 +25,6 @@ This requires the following data adding to the appropriate environment data file
 
 * `php_service_name` is the service that serves the PHP pages.
 
+* `auto_start` Automatically Start profiling
+
+* `auto_prepend_library` Load PHP Library - Disable to 'Turn Off' Tideways
