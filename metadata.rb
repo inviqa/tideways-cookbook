@@ -1,5 +1,5 @@
 name "tideways"
-version "0.2.2"
+version "0.3.0"
 maintainer "Rupert Jones"
 maintainer_email "rjones@inviqa.com"
 license "Apache 2.0"
