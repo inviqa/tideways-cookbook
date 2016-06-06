@@ -9,7 +9,6 @@ when 'rhel'
 
 when 'debian'
   apt_repository 'tideways' do
-    description 'Tideways'
     uri node['tideways']['apt_url']
     distribution 'debian'
     components ['main']

@@ -7,6 +7,7 @@ provisioner:
 platforms:
   - name: bento/centos-6.7
   - name: bento/centos-7.2
+  - name: bento/ubuntu-14.04
 
 suites:
   - name: default
