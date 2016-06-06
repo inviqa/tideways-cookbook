@@ -7,3 +7,4 @@ description 'Install and configure tideways daemon and PHP extension'
 
 depends 'yum'
 depends 'apt'
+depends 'php'

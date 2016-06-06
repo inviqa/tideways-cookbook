@@ -2,8 +2,7 @@ default['tideways']['yum_url'] = 'https://s3-eu-west-1.amazonaws.com/qafoo-profi
 default['tideways']['apt_url'] = 'http://s3-eu-west-1.amazonaws.com/qafoo-profiler/packages'
 default['tideways']['gpgkey'] = 'https://s3-eu-west-1.amazonaws.com/qafoo-profiler/packages/EEB5E8F4.gpg'
 
-default['tideways']['rhel_php_config'] = '/etc/php.d/40-tideways.ini'
-default['tideways']['debian_php_config'] = '/etc/php5/40-tideways.ini'
+default['tideways']['ini_file'] = '40-tideways.ini'
 
 default['tideways']['php_service_name'] = 'php-fpm'
 

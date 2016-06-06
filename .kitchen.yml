@@ -14,3 +14,4 @@ suites:
     run_list:
       - recipe[tideways::install]
       - recipe[tideways::configure]
+      - recipe[php-fpm]
