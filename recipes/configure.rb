@@ -1,4 +1,4 @@
-template '/etc/php.d/40-tideways.ini' do
+template "#{node['php']['ext_conf_dir']}/#{node['tideways']['ini_file']}" do
   source 'tideways.ini.erb'
   mode 00644
   owner 'root'
