@@ -3,10 +3,10 @@ default['tideways']['apt_url'] = 'http://s3-eu-west-1.amazonaws.com/qafoo-profil
 default['tideways']['gpgkey'] = 'https://s3-eu-west-1.amazonaws.com/qafoo-profiler/packages/EEB5E8F4.gpg'
 
 default['tideways']['ini_file'] = if platform_family?('rhel', 'fedora')
-   '40-tideways.ini'
-else
-   'tideways.ini'
-end
+                                    '40-tideways.ini'
+                                  else
+                                    'tideways.ini'
+                                  end
 
 default['tideways']['php_service_name'] = 'php-fpm'
 
