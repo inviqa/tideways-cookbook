@@ -10,6 +10,6 @@ end
 
 service 'tideways' do
   service_name 'tideways-daemon'
-  supports :start => true, :stop => true
+  supports start: true, stop: true
   action [:enable, :start]
 end

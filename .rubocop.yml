@@ -3,7 +3,6 @@ AllCops:
     - vendor/**/*
 
 Style/HashSyntax:
-  EnforcedStyle: hash_rockets
   Exclude:
     - spec/**/*
     - Rakefile
