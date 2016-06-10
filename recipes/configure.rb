@@ -5,6 +5,6 @@ template "#{node['php']['ext_conf_dir']}/#{node['tideways']['ini_file']}" do
   group 'root'
   notifies :reload, "service[#{node['tideways']['php_service_name']}]"
   variables(
-    :tideways => node['tideways']
+    tideways: node['tideways']
   )
 end
