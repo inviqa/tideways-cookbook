@@ -12,6 +12,6 @@ platforms:
 suites:
   - name: default
     run_list:
+      - recipe[php-fpm]
       - recipe[tideways::install]
       - recipe[tideways::configure]
-      - recipe[php-fpm]
