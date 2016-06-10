@@ -8,6 +8,9 @@ platforms:
   - name: bento/centos-6.7
   - name: bento/centos-7.2
   - name: bento/ubuntu-14.04
+  - name: bento/ubuntu-16.04
+  - name: bento/debian-7.10
+  - name: bento/debian-8.4
 
 suites:
   - name: default
