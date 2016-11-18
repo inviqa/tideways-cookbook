@@ -3,7 +3,11 @@ when 'rhel', 'fedora'
   yum_repository 'tideways' do
     description 'Tideways'
     url node['tideways']['yum_url']
-    gpgkey node['tideways']['gpgkey']
+    if respond_to?(:key)
+      key node['tideways']['gpgkey']
+    else
+      gpgkey node['tideways']['gpgkey']
+    end
     action :add
   end
 
